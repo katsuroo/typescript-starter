@@ -4,7 +4,8 @@
   "description": "A bare minimal typescript starter kit",
   "main": "index.ts",
   "scripts": {
-    "test": "mocha --require ts-node/register /**/*_tests.ts"
+    "test": "mocha --require ts-node/register /**/*_tests.ts",
+    "lint": "tslint -c tslint.json '**/*.ts'"
   },
   "author": "",
   "license": "MIT",
